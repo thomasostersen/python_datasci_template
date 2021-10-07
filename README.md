@@ -2,7 +2,7 @@
 
 This repository contains a base directory structure for data science projects.
 
-## Folder Structure
+## Directory Structure
 
 Top-level layout is as follows:
 
