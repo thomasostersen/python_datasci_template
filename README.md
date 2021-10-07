@@ -1,41 +1,30 @@
-# A template R project
+# A Template Data Science Project
 
-This repo contains a base folder structure for an R project
+This repository contains a base directory structure for data science projects.
 
-## Folder structure
+## Folder Structure
 
 Top-level layout is as follows:
 
 
-    ├── assets             				<- Folder containing company logos, images, configurations, etc.
-    ├── README.md          				<- The top-level README containing some information.
-    ├── docs               				<- Documents/info about the project
-    ├── R         			        	<- Custom R functions used in the project
+    ├── README.md               <- The top-level README containing some information about the project
+    ├── docs                    <- Detailed documents/info about the project
     │
     ├── data
-    │   ├── external       				<- Data from third party sources, could be additional or prediction datasets.
-    │   ├── interim        				<- Intermediate data that has been transformed.
-    │   ├── processed      				<- The final, canonical data sets for modeling.
-    │   └── raw            				<- The original, immutable data dump.
+    │   ├── external            <- Data from third party sources, could be additional or prediction datasets
+    │   ├── interim             <- Intermediate data that has been transformed and/or pre-processed
+    │   ├── processed           <- The final, canonical data sets for modelling
+    │   └── raw                 <- The original, immutable data dump
     │
-    │── scripts               		 	<- Scripts to create models, process data
-    │   ├── 01-data_preparation
-    │   ├── 02-EDA   	
-    │   ├── 03-modelling    	
-    │   ├── 04-evaluation           
+    │── code    
+    │   ├── eda   	            <- Jupyter notebooks and/or scripts used for exploratory data analysis
+    │   ├── data_processing     <- Jupyter notebooks and/or scripts used to process data to a modelling-ready state
+    │   └── modelling    	    <- Jupyter notebooks and/or scripts used to create and evaluate models         
     │
-    │── rmds               		 		<- Markdown files
-    │   ├── 01-eda.rmd          	     
-    │   ├── 02-modelling.rmd  	
+    │── reporting               <- Reporting documents, images and presentations relating to the project
     │
-    │── reports               		 	<- Outputs of the rmd files
-    │   ├── 01-eda.html          	     
-    │   ├── 02-modelling.html    	
-    │
-    │── apps               		 		<- Shiny apps
-    │   ├── 01-supervised_prediction.rmd          	     
-    │   ├── 02-unsupervised_prediction.rmd 
-    │
-    ├── models             				<- Trained models, model predictions, or model summaries
-    │   
-    ├── run_all.r         			    <- Scripts to run all the scripts	
+    ├── deliverables         			    
+    │   ├── predictions         <- Prediction outputs from modelling notebooks and/or scripts
+    │   └── models              <- Model objects with associated scripts for model deployment
+
+
