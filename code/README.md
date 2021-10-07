@@ -1,4 +1,4 @@
-## This folder has the following structure
+## This directory has the following structure
 
     │── code    
     │   ├── eda   	            <- Jupyter notebooks and/or scripts used for exploratory data analysis
