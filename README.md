@@ -1,4 +1,4 @@
-# A Template Data Science Project
+# A Template For Data Science Projects
 
 This repository contains a base directory structure for data science projects.
 
