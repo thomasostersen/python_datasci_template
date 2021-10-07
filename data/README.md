@@ -1,4 +1,4 @@
-## This folder has the following structure
+## This directory has the following structure
 
     ├── data
     │   ├── external            <- Data from third party sources, could be additional or prediction datasets
