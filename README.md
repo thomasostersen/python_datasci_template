@@ -16,6 +16,8 @@ Top-level layout is as follows:
     │   ├── processed           <- The final, canonical data sets for modelling
     │   └── raw                 <- The original, immutable data dump
     │
+    ├── dvc                     <- Directory for data version control files
+    │
     │── code    
     │   ├── eda   	            <- Jupyter notebooks and/or scripts used for exploratory data analysis
     │   ├── data_processing     <- Jupyter notebooks and/or scripts used to process data to a modelling-ready state
